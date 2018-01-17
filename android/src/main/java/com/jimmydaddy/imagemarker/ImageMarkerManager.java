@@ -665,7 +665,7 @@ public class ImageMarkerManager extends ReactContextBaseJavaModule {
                 pos.setY(top);
                 break;
             case "bottomCenter":
-                top = imageHeigt - height;
+                top = imageHeigt - height - 40;
                 left = (imageWidth)/2 - width/2;
                 pos.setX(left);
                 pos.setY(top);

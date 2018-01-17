@@ -218,7 +218,7 @@ UIImage * markerImgByPostion(UIImage *image, NSString* text, MarkerPosition posi
             break;
         case BottomCenter:
             rect = (CGRect){
-                CGPointMake((w-(size.width))/2, h-size.height-20),
+                CGPointMake((w-(size.width))/2, h-size.height-60),
                 size
             };
             break;
